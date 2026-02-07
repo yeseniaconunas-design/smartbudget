@@ -42,9 +42,6 @@ Se implementó **BEM** por su claridad y escalabilidad:
 - `sb-hero__title` (elemento)
 - `sb-card--featured` (modificador)
 
-Esto facilita extender componentes sin romper estilos existentes.
-
-Estoy aprendiendo a seguir una nomenclatura clara en el HTML (`SmartBudget/index.html`). Trato de usar `sb-navbar`, `sb-navbar__link` y `sb-navbar__cta` para el menú; el hero tiene clases como `sb-hero__content` y `sb-hero__mock`; para las cards me quedo con `sb-features__card` y `sb-features__text`; los planes usan `sb-pricing__plan`, `sb-pricing__body` y `sb-pricing__cta`; las preguntas frecuentes están bajo el bloque `sb-faq` con `sb-faq__toggle` y `sb-faq__content`; y el footer mantiene `sb-footer__inner`, `sb-footer__copy` y `sb-footer__link`. Voy entendiendo que ese prefijo `sb-` más BEM ayuda a que los selectores de SASS y el HTML no se confundan.
 
 ## 3) SASS con estructura 7-1
 Los estilos se organizaron según el patrón 7-1:
