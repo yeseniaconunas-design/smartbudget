@@ -1,0 +1,164 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sb {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  color: #111827;
+}
+
+.sb-hero__title {
+  line-height: 1.15;
+}
+
+.sb-section__title {
+  line-height: 1.2;
+}
+
+body.sb {
+  background: #ffffff;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.sb-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sb-brand__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sb-brand__text {
+  font-weight: 700;
+}
+
+.sb-mock {
+  border-radius: 12px;
+}
+
+.sb-header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+.sb-btn--cta {
+  border-radius: 999px;
+}
+
+.sb-hero {
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 70%);
+}
+@media (min-width: 992px) {
+  .sb-hero {
+    padding: 4rem 0;
+  }
+}
+
+.sb-hero__eyebrow {
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.sb-hero__title {
+  font-size: 2rem;
+}
+@media (min-width: 992px) {
+  .sb-hero__title {
+    font-size: 2.75rem;
+  }
+}
+
+.sb-hero__subtitle {
+  color: #6b7280;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.sb-hero__bullets {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.sb-section {
+  padding: 3rem 0;
+}
+@media (min-width: 992px) {
+  .sb-section {
+    padding: 4rem 0;
+  }
+}
+
+.sb-section--light {
+  background: #f8fafc;
+}
+
+.sb-section__head {
+  margin-bottom: 1.5rem;
+}
+
+.sb-section__subtitle {
+  color: #6b7280;
+}
+
+.sb-footer {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.sb-btn {
+  border-radius: 10px;
+}
+
+.sb-btn--primary {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+.sb-btn--primary:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.sb-card {
+  border-radius: 12px;
+}
+
+.sb-card--featured {
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.08);
+}
+
+.sb-modal {
+  border-radius: 12px;
+}
+
+.sb-list {
+  padding-left: 1.1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.sb-list__item {
+  margin-bottom: 0.35rem;
+}
+

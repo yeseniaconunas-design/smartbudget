@@ -1,0 +1,13 @@
+.sb-btn {
+  border-radius: 10px;
+}
+
+.sb-btn--primary {
+  background: $sb-color-primary;
+  border-color: $sb-color-primary;
+
+  &:hover {
+    background: $sb-color-primary-600;
+    border-color: $sb-color-primary-600;
+  }
+}

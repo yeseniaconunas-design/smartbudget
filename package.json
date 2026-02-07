@@ -1,0 +1,13 @@
+{
+  "name": "smartbudget-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Base de maqueta (landing) con HTML5 + BEM + SASS 7-1 + Bootstrap 4",
+  "scripts": {
+    "sass": "sass sass/main.scss css/main.css --no-source-map",
+    "sass:watch": "sass --watch sass/main.scss:css/main.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}

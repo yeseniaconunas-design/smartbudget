@@ -1,0 +1,171 @@
+.sb-hero {
+  @include sb-section-padding;
+  background: linear-gradient(180deg, $sb-color-surface 0%, #ffffff 70%);
+}
+
+.sb-hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sb-hero__visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sb-hero__mock {
+  width: 100%;
+  min-height: 260px;
+}
+
+.sb-hero__eyebrow {
+  color: $sb-color-muted;
+  margin-bottom: .5rem;
+}
+
+.sb-hero__title {
+  font-size: 2rem;
+
+  @media (min-width: $sb-bp-lg) {
+    font-size: 2.75rem;
+  }
+}
+
+.sb-hero__subtitle {
+  color: $sb-color-muted;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.sb-hero__bullets {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.sb-section {
+  @include sb-section-padding;
+}
+
+.sb-section--light {
+  background: $sb-color-surface;
+}
+
+.sb-section__head {
+  margin-bottom: 1.5rem;
+}
+
+.sb-section__subtitle {
+  color: $sb-color-muted;
+}
+
+.sb-features__grid {
+  margin-left: -.75rem;
+  margin-right: -.75rem;
+}
+
+.sb-features__card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sb-features__body {
+  flex: 1;
+}
+
+.sb-features__title {
+  margin-bottom: .35rem;
+}
+
+.sb-features__text {
+  color: $sb-color-muted;
+}
+
+.sb-features__icon {
+  font-size: 1.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.sb-pricing__plans {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.sb-pricing__plan {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sb-pricing__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.sb-pricing__cta {
+  margin-top: auto;
+  align-self: stretch;
+}
+
+.sb-pricing__badge {
+  font-weight: 600;
+}
+
+.sb-pricing__note {
+  font-size: .85rem;
+  color: $sb-color-muted;
+  margin: .25rem 0 0;
+}
+
+.sb-pricing__discount {
+  font-size: .85rem;
+  color: $sb-color-muted;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.sb-faq__list {
+  margin: 0;
+}
+
+.sb-faq__item {
+  border-radius: $sb-radius;
+  overflow: hidden;
+}
+
+.sb-faq__item + .sb-faq__item {
+  margin-top: .75rem;
+}
+
+.sb-faq__header {
+  background: transparent;
+  border-bottom: none;
+  padding: 0;
+}
+
+.sb-faq__toggle {
+  font-weight: 600;
+  color: $sb-color-text;
+  box-shadow: none;
+  padding: 0 0 0 1rem;
+}
+
+.sb-faq__panel {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.sb-faq__content {
+  padding: 1rem 0;
+}
+
+.sb-faq__content {
+  padding-left: 1rem;
+}

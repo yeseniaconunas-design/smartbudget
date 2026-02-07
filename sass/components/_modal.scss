@@ -1,0 +1,48 @@
+.sb-modal {
+  border-radius: $sb-radius;
+}
+
+.sb-modal__summary-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $sb-color-muted;
+  margin-bottom: .25rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.sb-modal__percent {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.sb-modal__stats {
+  margin: 1rem 0;
+}
+
+.sb-modal__stats .sb-list__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sb-modal__compare {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+  margin: 1rem 0;
+}
+
+.sb-modal__compare-row {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 0;
+  font-size: .9rem;
+}
+
+.sb-modal__compare-row + .sb-modal__compare-row {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.sb-modal__compare-row--header {
+  font-weight: 600;
+  text-transform: uppercase;
+}

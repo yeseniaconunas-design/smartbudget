@@ -1,0 +1,75 @@
+// Tema femenino rosado
+$sb-feminine-primary: #ec4899;
+$sb-feminine-primary-dark: #be185d;
+$sb-feminine-surface: #fdf2f8;
+$sb-feminine-muted: #fce7f3;
+$sb-feminine-shadow: 0 20px 35px rgba(236, 72, 153, 0.25);
+
+body.theme-feminine {
+  background-color: $sb-feminine-surface;
+  color: #0f172a;
+
+  .sb-hero {
+    background: linear-gradient(180deg, $sb-feminine-muted 0%, lighten($sb-feminine-surface, 5%) 70%);
+  }
+
+  .sb-hero__title,
+  .sb-section__title {
+    color: #111827;
+  }
+
+  .sb-brand__mark {
+    background: $sb-feminine-primary;
+  }
+
+  .sb-section--light {
+    background: rgba($sb-feminine-muted, 0.6);
+  }
+
+  .sb-card,
+  .card {
+    border-color: rgba(236, 72, 153, 0.3);
+    box-shadow: $sb-feminine-shadow;
+  }
+
+  .sb-btn--primary,
+  .sb-pricing__plan .btn-primary {
+    background: $sb-feminine-primary;
+    border-color: $sb-feminine-primary;
+    color: #fff;
+  }
+
+  .sb-btn--primary:hover,
+  .sb-pricing__plan .btn-primary:hover {
+    background: $sb-feminine-primary-dark;
+    border-color: $sb-feminine-primary-dark;
+  }
+
+  .btn-outline-primary {
+    color: $sb-feminine-primary;
+    border-color: $sb-feminine-primary;
+  }
+
+  .btn-outline-primary:hover {
+    background: rgba($sb-feminine-primary, 0.08);
+  }
+
+  .sb-faq__toggle {
+    color: $sb-feminine-primary-dark;
+  }
+
+  .sb-footer {
+    background: lighten($sb-feminine-surface, 3%);
+  }
+
+  .sb-btn--cta {
+    background: $sb-feminine-primary;
+    border-color: $sb-feminine-primary;
+    color: #fff;
+  }
+
+  .sb-btn--cta:hover {
+    background: $sb-feminine-primary-dark;
+    border-color: $sb-feminine-primary-dark;
+  }
+}
